@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aspect Analysis</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="upload-container">
+      <h1>Upload Text or Speak</h1>
+
+      <!-- Upload File -->
+      <input type="file" id="fileInput" accept=".txt" />
+      <button id="uploadBtn">Upload File</button>
+
+      <!-- Record Button -->
+      <button id="recordBtn">🎙️ Start Recording</button>
+      <button id="sendAudioBtn" disabled>Upload Audio</button>
+
+      <!-- Status -->
+      <p id="status">Waiting for input...</p>
+    </div>
+
+    <!-- Chart Output -->
+    <div class="chart-container">
+      <canvas id="aspectChart"></canvas>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
