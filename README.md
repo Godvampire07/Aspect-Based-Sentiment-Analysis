@@ -1,3 +1,6 @@
+#For deep understanding, please find the attached report of this project in the respective github directory
+
+
 # Multilingual Aspect-Based Sentiment Analysis (ABSA) with Audio-Text Integration
 
 This repository contains the implementation of a robust ABSA framework designed for low-resource Indian languages, specifically Hindi, Marathi, and Telugu. The system integrates both textual and speech inputs, leveraging state-of-the-art models for transcription, language detection, and translation-based data augmentation.
